@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply from: '../../../constants.gradle'
+apply from: '../../../RtspExoPlayer/constants.gradle'
 
 android {
     compileSdkVersion project.ext.compileSdkVersion
@@ -18,11 +18,14 @@ android {
 }
 
 dependencies {
+    implementation project(':core')
+
+    implementation      'com.android.support:support-v4:28.0.0'
+    implementation      'com.android.support:support-media-compat:28.0.0'
 
     implementation 'com.android.support:support-annotations:28.0.0'
 
-    compileOnly    'org.checkerframework:checker-qual:'         + project.ext.checkerframeworkVersion    // https://mvnrepository.com/artifact/org.checkerframework/checker-qual
-    compileOnly    'org.checkerframework:checker-compat-qual:'  + project.ext.checkerframeworkVersion    // https://mvnrepository.com/artifact/org.checkerframework/checker-compat-qual
+    compileOnly         'org.checkerframework:checker-qual:'  + project.ext.checkerframeworkVersion    // https://mvnrepository.com/artifact/org.checkerframework/checker-qual
 }
 
 repositories {

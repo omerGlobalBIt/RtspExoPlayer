@@ -9,11 +9,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/app/libs/exoplayer/core" />
-            <option value="$PROJECT_DIR$/app/libs/exoplayer/rtp" />
-            <option value="$PROJECT_DIR$/app/libs/exoplayer/rtsp" />
-            <option value="$PROJECT_DIR$/app/libs/exoplayer/sdp" />
-            <option value="$PROJECT_DIR$/app/libs/exoplayer/ui" />
+            <option value="$PROJECT_DIR$/exoplayer/core" />
+            <option value="$PROJECT_DIR$/exoplayer/rtp" />
+            <option value="$PROJECT_DIR$/exoplayer/rtsp" />
+            <option value="$PROJECT_DIR$/exoplayer/sdp" />
+            <option value="$PROJECT_DIR$/exoplayer/ui" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
