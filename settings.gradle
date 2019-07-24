@@ -1,0 +1,6 @@
+include ':app', ':core', ':rtp', ':sdp', ':rtsp', ':ui'
+project(':core').projectDir = new File('app/libs/exoplayer/core')
+project(':rtp').projectDir = new File('app/libs/exoplayer/rtp')
+project(':sdp').projectDir = new File('app/libs/exoplayer/sdp')
+project(':rtsp').projectDir = new File('app/libs/exoplayer/rtsp')
+project(':ui').projectDir = new File('app/libs/exoplayer/ui')
