@@ -1,6 +1,6 @@
-include ':app', ':core', ':sdp', ':rtp', ':rtsp', ':ui'
+include ':app', ':core', ':rtp', ':rtsp', ':sdp', ':ui'
 project(':core').projectDir = new File('exoplayer/core')
-project(':sdp').projectDir = new File('exoplayer/sdp')
 project(':rtp').projectDir = new File('exoplayer/rtp')
 project(':rtsp').projectDir = new File('exoplayer/rtsp')
+project(':sdp').projectDir = new File('exoplayer/sdp')
 project(':ui').projectDir = new File('exoplayer/ui')
