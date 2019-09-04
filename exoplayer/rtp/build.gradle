@@ -1,19 +1,17 @@
 apply plugin: 'com.android.library'
-apply from: '../../../RtspExoPlayer/constants.gradle'
-apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.omerGlobalBIt'
+
 android {
-    compileSdkVersion project.ext.compileSdkVersion
-    buildToolsVersion project.ext.buildToolsVersion
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 
     compileOptions {
-        sourceCompatibility project.ext.javaVersion
-        targetCompatibility project.ext.javaVersion
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     defaultConfig {
-        minSdkVersion project.ext.minSdkVersion
-        targetSdkVersion project.ext.targetSdkVersion
+        minSdkVersion 16
+        targetSdkVersion 28
         consumerProguardFiles 'proguard-rules.txt'
     }
 }
